@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a3c9a8;
+}
+
+.container {
+  margin: 0 auto;
+  width: 400px;
+  background-color: #ddd8c4;
+  color: #69a297;
+  border-radius: 5px;
+}
+
+form {
+  margin: 0 auto;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+  padding: 25px 15px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+form input {
+  width: 100%;
+  margin-top: 10px;
+  outline: none;
+  border: none;
+  background-color: #a3c9a8;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.nameBox {
+  display: flex;
+  column-gap: 40px;
+}
+
+.terms-box {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 5px;
+}
+
+.terms-box label {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+input[type="checkbox"] {
+  width: 15px;
+  margin-top: 10px;
+}
+
+.btn-box {
+  width: 100%;
+  text-align: center;
+}
+
+.submit-btn {
+  padding: 10px 30px;
+  background-color: #a3c9a8;
+  color: white;
+  border: 1px solid #a3c9a8;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+  border: 1px solid white;
+  background-color: #69a297;
+}
